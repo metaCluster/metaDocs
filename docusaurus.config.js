@@ -73,7 +73,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} metaKube.com`,
+      copyright: `Copyright © ${new Date().getFullYear()} | metaKube.com <br /> Made with ♥ in Belfast`,
     },
     prism: {
       theme: lightCodeTheme,
