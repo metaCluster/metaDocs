@@ -1,33 +1,22 @@
-# Website
+---
+sidebar_position: 1
+---
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Quick Start
 
-## Installation
+Meta (from the Greek μετα-, meta-, meaning "after" or "beyond") is a prefix meaning more comprehensive or transcending.
 
-```console
-yarn install
-```
+Applied to Cloud micro-service orchestration, we observe that the number of ***managed Kubernetes*** clusters keeps increasing and it becomes harder and harder to have a full and high level overview over the global, security and management across the fleet of clusters.
 
-## Local Development
+Infrastructure code keeps increasing in complexity as more clusters are deployed with existing IaC tooling as Terraform and Cloudformation. IaC is not just about deploying the underlying infrastructure of the Kubernetes clusters but also the upper layers:  
 
-```console
-yarn start
-```
+  - VPC Deployment (Networking)
+  - EKS Cluster and dependencies (EKS)
+  - Kubernetes Operators and Provisioning  (Operators)
+  - Application managed service dependencies (Application)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## metaDocs
+metaDocs is a colletion of multiple Kubernetes Controllers and Operators required by a metaKube framework.
 
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## metaKube
+A metaKube is a kubernetes cluster used to deploy ***Infrastructure as Kubernetes Manifests (IaKm)*** 
