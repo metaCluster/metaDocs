@@ -1,5 +1,6 @@
 ---
 title: Kube-Visibility
+id: kube-visibility
 description: Prometheus Operator deployment GitOps friendly 
 ---
 # kube-visibility 
