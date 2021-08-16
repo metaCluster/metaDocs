@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Quick Start
 
 Meta (from the Greek μετα-, meta-, meaning "after" or "beyond") is a prefix meaning more comprehensive or transcending.
