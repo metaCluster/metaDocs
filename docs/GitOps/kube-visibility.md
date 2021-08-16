@@ -25,7 +25,7 @@ Also, this is [GitOps](https://www.weave.works/technologies/gitops/) friendly.
 
 ## Components of this bundle
 
-This [kpt package](pkg/) will install the following software list into your Kubernetes cluster
+This [kpt package](https://github.com/slashdevops/kube-visibility/blob/master/pkg) will install the following software list into your Kubernetes cluster
 
 | Project                                                                          | License                                                                                              |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -57,7 +57,7 @@ Used Tools
 
 ## Project Layout Structure
 
-The layout structure for this project is simple, the [pkg folder](pkg/) contains the [kpt blueprint](https://googlecontainertools.github.io/kpt/guides/producer/blueprint/) implementation of kube-visibility, which is separate from the root of git project intentionally to avoid unnecessary files into the package when you install it using [kpt pkg get](https://googlecontainertools.github.io/kpt/guides/consumer/get/) command.
+The layout structure for this project is simple, the [pkg folder](https://github.com/slashdevops/kube-visibility/tree/master/pkg) contains the [kpt blueprint](https://googlecontainertools.github.io/kpt/guides/producer/blueprint/) implementation of kube-visibility, which is separate from the root of git project intentionally to avoid unnecessary files into the package when you install it using [kpt pkg get](https://googlecontainertools.github.io/kpt/guides/consumer/get/) command.
 The root folder could contain additional docs, examples, and CI/CD pipeline definitions.
 
 ## Customization and packager tool
@@ -82,7 +82,7 @@ __NOTE:__  Remember the `pkg folder` into the `git path`
 
 ## Try it on minikube
 
-Looks inside [HowTos folder](HowTos/) for more detailed information about how to prepare minikube
+Looks inside [HowTos folder](https://github.com/slashdevops/kube-visibility/tree/master/HowTos) for more detailed information about how to prepare minikube
 
 ### minikube setting
 
@@ -188,7 +188,7 @@ kustomize build kube-visibility/instance | kubectl apply -f -
 
 ### Once installed, access to graphical tools
 
-All these tools are accessible (using the method described below) when you follow the instructions described in [HowTos folder](HowTos/) for minikube
+All these tools are accessible (using the method described below) when you follow the instructions described in [HowTos folder](https://github.com/slashdevops/kube-visibility/tree/master/HowTos) for minikube
 
 #### kubernetes Dashboard
 
