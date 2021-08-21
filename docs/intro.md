@@ -16,7 +16,5 @@ Infrastructure code keeps increasing in complexity as more clusters are deployed
   - Application managed service dependencies (Application)
 
 ## metaDocs
-metaDocs is a colletion of multiple Kubernetes Controllers and Operators required by a metaKube framework.
+metaDocs is a collection of multiple Kubernetes Controllers and Operators required by a metaKube framework.
 
-## metaKube
-A metaKube is a kubernetes cluster used to deploy ***Infrastructure as Kubernetes Manifests (IaKm)*** 
