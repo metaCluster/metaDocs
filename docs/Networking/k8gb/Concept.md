@@ -1,8 +1,15 @@
 ---
-title: Concept
+title: Global Load Balancer
+linkTitle: "Global Load Balancer"
 id: k8gb
 description: A Global Server Load Balancing solution with a focus on having cloud native qualities and work natively in a Kubernetes context.
 slug: /global-load-balancing-solution-for-kubernetes
+tags:
+  - global
+  - load
+  - balancer
+  - eks
+  - fargate  
 ---
 
 ### Author Information

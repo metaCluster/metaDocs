@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Kubernetes ${siteConfig.title}`}
-      description="A collection of Kubernetes Controllers and Operators for metaKube clusters">
+      description="A collection of Kubernetes Controllers and Operators for a metaKube cluster">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

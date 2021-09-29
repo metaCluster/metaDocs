@@ -50,17 +50,9 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: '#',
-            },
-            {
               label: 'Discord',
-              href: '#',
-            },
-            {
-              label: 'Twitter',
-              href: '#',
-            },
+              href: 'https://discord.com/channels/877852005551448144/877852005551448148',
+            }
           ],
         },
         {

@@ -22,11 +22,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'GitOps',
+    title: 'Infrastructure as Kubernetes Manifest (IaKM)',
     Svg: require('../../static/img/gitops.svg').default,
     description: (
       <>
-        An operating model for Kubernetes and other cloud native technologies, providing a set of best practices that unify Git deployment, management and monitoring for containerized clusters and applications.
+        Crossplane open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume, without having to write any code.
       </>
     ),
   },
