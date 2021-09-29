@@ -26,7 +26,7 @@ tags:
 <br />
 
 
-### Infrastructure as a Kubernetes Manifest (IaKM)
+### Infrastructure as Kubernetes Manifest (IaKM)
 
 ![Crossplane](https://raw.githubusercontent.com/crossplane/crossplane/master/docs/media/banner.png)
 
